@@ -1,0 +1,103 @@
+/* CSS for Basic-Portfolio */
+	/*CSS for index.html */
+
+* {
+	box-sizing: border-box;
+	text-align: left;
+}
+
+header {
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+	color: #ffffff;
+	text-align: center;
+  	padding: 20px;
+  	background-color: #4aaaa5;
+  	width: 160px;
+}
+
+div {
+	float: right;
+	padding: 20px;
+	width: 270px;
+}
+
+#Contact {
+	margin-top: 20px;
+	padding-left: 15px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+	color: 7777777;
+	background-color: #ffffff;
+}
+
+#Portfolio {
+	margin-top: 20px;
+	margin-right: 125;
+	padding-left: 15px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';50px
+	color: 7777777;
+	background-color: #ffffff;
+}
+
+#About {
+	margin-right: 250;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 15px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 5px;
+	border-top-color: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+	color: 7777777;
+	background-color: #ffffff;
+}
+
+#Profile-Picture {
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-right: 20px;
+}
+
+#article {
+	width: 650px;
+}
+
+#connect {
+	clear: both;
+	overflow: auto;
+	position: relative;
+	left: 30px;
+	width: 270px;
+	margin-right: 10px;
+}
+
+#Github {
+	width: 50px;
+	height: 50px;
+}
+
+#LinkedIn {
+	width: 50px;
+	height: 50px;
+}
+
+#Stack {
+	width: 50px;
+	height: 50px;
+}
+
+footer {
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+	color: #7777777;
+	text-align: center;
+  	padding: 20px;
+  	background-color: #666666;
+  	width: 960px;
+  	border-top: 5px;
+  	border-top-color: #dddddd;
+}
