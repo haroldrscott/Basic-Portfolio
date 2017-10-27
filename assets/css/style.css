@@ -1,29 +1,44 @@
 /* CSS for Basic-Portfolio */
 	/*CSS for index.html */
 
-* {
-	box-sizing: border-box;
-	text-align: left;
+body {
+	width: 960px;
+	background-color: lightblue;
+}
+
+a {
+	text-decoration: none;
+	color: #777777;
 }
 
 header {
 	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+	font-size: 28px;
 	color: #ffffff;
 	text-align: center;
-  	padding: 20px;
   	background-color: #4aaaa5;
-  	width: 160px;
+  	padding: 20px;
+  	width: 200px;
 }
 
-div {
-	float: right;
-	padding: 20px;
-	width: 270px;
+nav {
+	position: absolute;
+	width: 720px;
+	height: 72px;
+	top: 0px;
+	left: 249px;
+	right: 0px;
+	bottom: 0px;
+	margin-left: 0px;
+	background-color: white;
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+	color: #777777;
+	text-align: right;
+	padding: 0px;
 }
 
 #Contact {
-	margin-top: 20px;
-	padding-left: 15px;
+	padding-right: 15px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
@@ -32,48 +47,57 @@ div {
 }
 
 #Portfolio {
-	margin-top: 20px;
-	margin-right: 125;
-	padding-left: 15px;
+	padding-right: 15px;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';50px
-	color: 7777777;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+	color: #777777;
 	background-color: #ffffff;
 }
 
 #About {
-	margin-right: 250;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding-left: 15px;
+	padding-right: 15px;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	border-top: 5px;
-	border-top-color: #ffffff;
 	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-	color: 7777777;
+	color: #777777;
 	background-color: #ffffff;
+}
+
+#About-Me {
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+	font-size: 28px;
+	padding-top: 20px;
+	padding-left: 10px;
+	color: #777777;
+	background-color: white; 
+}
+
+.Bio {
+	padding: 5px;
 }
 
 #Profile-Picture {
 	width: 150px;
 	height: 150px;
 	float: left;
+	margin-left: 20px;
 	margin-right: 20px;
 }
 
 #article {
+	clear: both;
+	overflow: auto;
 	width: 650px;
+	background-color: white;
+	color: #777777;
+	margin-top: 20px;
+
 }
 
 #connect {
-	clear: both;
-	overflow: auto;
-	position: relative;
-	left: 30px;
 	width: 270px;
-	margin-right: 10px;
+	height: 150px;
 }
 
 #Github {
@@ -93,11 +117,10 @@ div {
 
 footer {
 	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
-	color: #7777777;
+	color: #777777;
 	text-align: center;
   	padding: 20px;
   	background-color: #666666;
-  	width: 960px;
-  	border-top: 5px;
+  	border-top: 10px;
   	border-top-color: #dddddd;
 }
